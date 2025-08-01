@@ -83,6 +83,6 @@ class Application():
 
 if __name__ == "__main__":
       theme = DarkThemeFactory()
-      app = Application(theme=theme)
+      app = Application(theme=theme) # You could also pass theme not as an instance but as a string (as in being a config param)
       app.create_ui()
       app.interact()
