@@ -1,2 +1,0 @@
-- Factory + bridge
-- Simple factory + factory
