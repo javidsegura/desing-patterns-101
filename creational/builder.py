@@ -161,7 +161,7 @@ if __name__ == "__main__":
      director.create_simple_pc()
      print(office_builder.computer)
 
-     print("="*30)
+     print("="*30 )
 
      gaming_builder = GamingPCBuilder()
      director.set_builder(gaming_builder) # recycling existing object!

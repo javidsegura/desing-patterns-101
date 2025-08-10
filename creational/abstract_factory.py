@@ -29,10 +29,10 @@ class CheckBox(ABC):
             pass
 
 # -- CONCRETE PRODUCTS -- 
-class LightButton(Button):
+class LightButton(Button): # Promotional SMS
       def click(self):
             print("Clicking a light button")
-class DarkButton(Button):
+class DarkButton(Button):  # Promotional email
       def click(self):
             print("Clicking a dark button")
 
